@@ -1,0 +1,20 @@
+  pizzas_taste = {
+    "HOME_MADE" => ["olive", "salad", "ham", "meat"],
+    "4CHEESEs" =>  ["cheese", "cheese", "cheese", "cheese"],
+    "Peperoni" =>  ["peperoni", "cheese", "chicken", "tomato"]
+  }
+
+
+puts pizzas_taste["HOME_MADE"]
+
+
+
+pizzas_taste = {
+    "HOME_MADE" => ["olive", "salad", "ham", "meat"],
+    "4CHEESEs" =>  ["cheese", "cheese", "cheese", "cheese"],
+    "Peperoni" =>  ["peperoni", "cheese", "chicken", "tomato"]
+  }
+
+   pizzas_taste.each_with_index do |pizzas, ingredientes|
+    puts "sabores sao #{pizzas} is #{ingredientes}"
+    end
