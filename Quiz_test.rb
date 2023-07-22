@@ -76,8 +76,8 @@ city[ :population ] += 1
 p city[:mayor]
 p city
 
-puts "=========================== Array to HASH =============================="
-puts "====================== O MAP modifica o ARRAY =========================="
+puts "=========================== Array to HASH ============================="
+puts "====================== O MAP modifica o ARRAY ========================="
 
 students = [ [ "john", 28 ], [ "mary", 25 ], [ "paul", 21 ] ]
 
@@ -86,3 +86,5 @@ new_students = students.map do |student|
 end
 
 p new_students
+
+puts "====================== FINAL ========================="
