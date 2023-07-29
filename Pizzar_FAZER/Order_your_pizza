@@ -18,3 +18,24 @@ pizzas_taste = {
    pizzas_taste.each_with_index do |pizzas, ingredientes|
     puts "sabores sao #{pizzas} is #{ingredientes}"
     end
+
+
+    "***************************SYMBOL TEST ****************************"
+
+  pais = {
+    # Key: value
+    country: "Brasil",
+    population: "500 milhoes"
+  }
+
+  pais2 = {
+    # Key: value
+    country: "England",
+    population: 830000
+  }
+
+  p pais[:country]
+  puts
+  p pais2[:country]
+
+

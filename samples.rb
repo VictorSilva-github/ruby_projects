@@ -31,6 +31,17 @@ students.each_with_index do |student, index|
   end
   puts "OLHA ISSO! Student sem idade"
 
+
+  puts "********************* ARRAY SELECT ***********************"
+
+    musicians = ["Victor Silva", "Fabiana", "Maria ", "Roberto"]
+
+    musicians = musicians.select do |musician|
+    musician.start_with?("R", "V")
+    end
+
+    p musicians
+
 puts "====================== HASH ========================="
 # # Do you like this solution? 
 # #Imagine with 10k students in the array.
@@ -67,7 +78,7 @@ end
 
 puts "====================== DELETANDO star_monument ========================="
 paris.delete("star_monument")
-puts "Capital of paris is #{paris["country"]}"
+puts "Paris is the capital of #{paris["country"]}"
 puts "The population of paris is #{paris["population"]}"
 
 puts "====================== others ========================="
@@ -107,3 +118,21 @@ puts "====================== HASH 2 values ========================="
    pizzas_taste.each_with_index do |pizzas, ingredientes|
     puts "sabores sao #{pizzas} is #{ingredientes}"
     end
+
+    "***************************WHILE****************************"
+
+        count = 0 
+        while count <= 10
+            puts count
+            count += 1
+        end
+puts "****************** while 2 ***************************"
+    price = rand(1..2)
+    puts "Adivinhe um numero entre 1 a 2"
+    guess = gets.chomp.to_i
+
+    while guess != price
+        puts "tente novamente!!!"
+        guess = gets.chomp.to_i
+    end
+    puts "You Won!"
