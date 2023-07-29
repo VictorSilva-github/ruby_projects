@@ -30,4 +30,5 @@ begin
   puts "Location: #{user['location']}"
 rescue OpenURI::HTTPError => e
   puts "Error: #{e.message}"
+# 
 end

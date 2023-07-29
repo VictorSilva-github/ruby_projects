@@ -101,7 +101,7 @@ end
 ############################
 #  AQUI COMECA o PROGRAMA  #
 ############################
-
+# 
 gifts = []
 gifts = load if File.exist?(FILENAME)
 

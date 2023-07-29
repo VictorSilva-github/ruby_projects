@@ -19,5 +19,5 @@ class Citizen
     puts victor = Citizen.new("Victor", "Silva", 25)
     puts victor.full_name
     puts victor.can_vote?
-
+# 
 end

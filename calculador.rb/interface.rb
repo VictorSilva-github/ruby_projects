@@ -22,4 +22,5 @@ if result
   puts "O resultado é #{result}"
 else
   puts "A operaçao selecionada não é válida"
+  # 
 end

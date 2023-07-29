@@ -14,7 +14,7 @@ pizzas_taste = {
     "4CHEESEs" =>  ["cheese", "cheese", "cheese", "cheese"],
     "Peperoni" =>  ["peperoni", "cheese", "chicken", "tomato"]
   }
-
+# 
    pizzas_taste.each_with_index do |pizzas, ingredientes|
     puts "sabores sao #{pizzas} is #{ingredientes}"
     end

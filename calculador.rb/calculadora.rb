@@ -12,5 +12,6 @@ def calculator(number1, number2, operation)
       result = nil
     end
     result
+    # 
   end
   

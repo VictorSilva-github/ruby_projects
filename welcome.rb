@@ -12,6 +12,4 @@ class Welcome
         puts "ERRO, Escolha um dos menus"
     end
 puts 
-
-
 end

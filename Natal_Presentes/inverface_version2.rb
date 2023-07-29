@@ -78,7 +78,7 @@ def save(gifts)
     gifts.each { |gift| csv << [gift[:name], gift[:bought]] }
   end
 end
-
+# 
 def welcome_message
   puts "=".green * 40
   puts "Boas vindas à nossa lista de presentes".red

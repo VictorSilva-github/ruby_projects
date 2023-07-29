@@ -15,6 +15,6 @@ while computer_coin != player_coin
   puts "#{verb}."
 end
 
-
+# 
 # ou podemos fazer assim>>
 # # # verb = (computer_coin == player_coin) ? "you won!" : "you lost!"

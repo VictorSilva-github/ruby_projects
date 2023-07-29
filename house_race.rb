@@ -25,6 +25,7 @@ loop do
     puts "#{index + 1} #{horse}"
   end
   puts "*********************************************************"
+  # 
   # Mostrar se o usuário ganhou ou perdeu
   if results[0] == horses[choice]
     puts "Você venceu! :D"
